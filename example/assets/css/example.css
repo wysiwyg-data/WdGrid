@@ -1,0 +1,54 @@
+/**
+ * Main example css file
+ * File: /assets/css/example.css
+ *
+ * @author     WYSIWYG Data development
+ * @copyright  (c) 2024
+**/
+
+html, body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: 82px 1fr 42px;
+  height: 100vh;
+  width: 100%;
+  font-family: tahoma, helvetica, verdana, arial, sans-serif;
+  font-size: 14px;
+}
+
+header {
+  justify-content: center;
+}
+footer {
+  justify-content: center;
+}
+content {
+  overflow: auto;
+}
+
+#wd_HeaderDiv {
+  grid-area: header;
+  padding: 20px;
+}
+#wd_HeaderDiv p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#wd_ContentDiv {
+  grid-area: content;
+  padding: 20px;
+}
+
+#wd_FooterDiv {
+  grid-area: footer;
+  padding: 5px;
+}
+#wd_FooterDiv p {
+  margin: 5px 10px 5px 10px;
+  font-size: .9em;
+  text-align: center;
+}

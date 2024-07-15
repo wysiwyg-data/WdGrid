@@ -1,0 +1,35 @@
+/**
+ * Main example Theme css file
+ * File: /assets/app-themes/<theme>/css/example.css
+ *
+ * @author     WYSIWYG Data development
+ * @copyright  (c) 2024
+**/
+
+html, body {
+  color: #457B9D;
+  background-color: #F1FAEE;
+}
+
+a {
+  color: #457B9D;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+a:link {
+  color: #457B9D;
+}
+a:hover {
+  color: #F1FAEE;
+}
+a:active {
+  color: #457B9D;
+}
+
+.wd_BorderBottomClass {
+  border-bottom: 1px solid #1D3557;
+}
+.wd_BorderTopClass {
+  border-top: 1px solid #1D3557;
+}

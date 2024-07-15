@@ -1,0 +1,72 @@
+/**
+ * Theme css file for the wdgrid class
+ * File: /assets/app-themes/<theme>/css/wdgrid.css
+ *
+ * @copyright  (c) 2024 WYSIWYG Data
+ */
+
+.wd_DgWrapper {
+  color: #3b6a83;
+}
+.wd_DgTitle {
+}
+.wd_DgHeader {
+  border-top: 1px solid #00456a;
+  border-bottom: 1px solid #00456a;
+}
+.wd_DgHiddenDataDiv {
+  background-color: #efefef;
+  border-bottom: 1px solid #00456a;
+  border-left: 1px solid #00456a;
+  border-right: 1px solid #00456a;
+  border-radius: 0 0 5px 5px;
+}
+.wd_DgFooter {
+  border-top: 1px solid #00456a;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+tbody > tr {
+  border: none;
+}
+
+.wd_DgDataTableRow {
+  border-bottom: 1px solid #82B5D1;
+}
+.wd_DgDataTableRow:hover {
+  background-color: #82B5D1;
+  color: #E3F3FB;
+}
+
+.wd_DgHeaderText, .wd_DgHeaderText a {
+  color: #00456A;
+}
+.wd_DgHeaderText a:hover {
+  color: #82B5D1;
+}
+.wd_DgTableText {
+  color: #00456A;
+}
+.wd_DgTableText:hover {
+  color: #E3F3FB;
+}
+.wd_DgTableText a {
+  color: #00456A;
+}
+.wd_DgHiddenText {
+  color: #00456A;
+}
+.wd_DgErrorClass {
+  color: #FF0000;
+}
+.wd_DgInfoClass {
+  color: #0000FF;
+}
+
+.wd_DgInputBox, .wd_DgInputBoxRight {
+  border: 1px solid #82B5D1;
+  background-color: #E3F3FB;
+}

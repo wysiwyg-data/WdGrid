@@ -1,0 +1,187 @@
+/**
+ * Main css file for the wdgrid class
+ * File: /assets/css/wdgrid.css
+ *
+ * @copyright  (c) 2024 WYSIWYG Data
+**/
+
+
+/* Grid wrapper div */
+.wd_DgWrapper {
+  font-family: tahoma, helvetica, verdana, arial, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+
+
+/* Grid horizontal <div> for each section */
+.wd_DgTitle,
+.wd_DgHeader,
+.wd_DgDataHeader,
+.wd_DgDataTableRow,
+.wd_DgEditSpanRow,
+.wd_DgHiddenDataLine,
+.wd_DgFooter,
+.wd_NavControls
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.wd_DgFlexSubDiv-f {
+  -webkit-flex: 0; /* Safari 6.1+ */
+  -ms-flex: 0; /* IE 10 */
+  flex: 0 0 auto; /*important*/
+}
+.wd_DgFlexSubDiv-gs {
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1 1 auto; /*important*/
+}
+
+
+/* HTML elements styling */
+img {
+  border: 0;
+}
+table {
+  border: 0;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+td {
+  padding: 0;
+}
+
+
+/* Individual grid section add-on styling */
+.wd_DgTitle,
+.wd_DgFooter,
+.wd_NavControls {
+  justify-content: space-between;
+}
+.wd_DgTitleText,
+.wd_DgHeaderText,
+.wd_DgFooterText {
+  padding: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+/* title  div */
+.wd_DgTitle {
+  height: 40px;
+  padding: 0 10px 0 10px;
+}
+.wd_DgTitleText {
+  margin-top: 11px;
+}
+.wd_DgTitleInput {
+  margin: 6px 5px 0 5px;
+}
+.wd_DgInputBox,
+.wd_DgInputBoxRight {
+  padding: 4px;
+  font-size: 1em;
+  font-weight: bold;
+}
+.wd_DgNoFilterImg {
+  margin-top: 11px;
+}
+.wd_DgTitleImg {
+  margin-top: 11px;
+  width: 16px;
+}
+.wd_DgShowDel {
+  text-align: right;
+}
+/* header div */
+.wd_DgHeader {
+  height: 30px;
+}
+.wd_DgSortImgDiv {
+  width: 14px;
+  padding-top: 5px;
+}
+.wd_DgSortImgDiv p {
+  margin: 0;
+}
+.wd_DgHeaderText {
+  margin: 6px 2px 4px 2px;
+}
+.wd_DgNewImgDiv {
+  width: 20px;
+  margin-top: 6px;
+}
+.wd_DgNewImgDiv p {
+  margin: 0;
+}
+.wd_DgFloatRight {
+  float: right;
+}
+/* data div */
+.wd_DgTable {
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+.wd_DgDataMsgDiv {
+  padding-top: 40px;
+}
+.wd_DgTableText {
+  margin: 4px 2px 6px 2px;
+}
+.wd_DgCenterImg {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+.wd_DgLineIconImgDiv {
+  width: 20px;
+}
+.wd_DgTableImage {
+  margin: 5px 2px 2px 2px;
+}
+.wd_DgHiddenDivTriggerDiv {
+  width: 15px;
+  padding-top: 5px;
+}
+.wd_DgErrorClass,
+.wd_DgInfoClass {
+  font-weight: bold;
+  text-align: center;
+}
+.wd_DgHiddenDataDiv {
+  display: none;
+  padding: 5px 3px 2px 2px;
+  margin-bottom: 5px;
+}
+.wd_DgHiddenText {
+  margin: 2px 0 2px 4px;
+}
+/* footer div */
+.wd_DgFooter {
+  height: 40px;
+}
+.wd_DgFooterText {
+  margin: 10px 0 0 5px;
+}
+.wd_NavControls {
+  padding-top: 1px;
+  margin-right: 10px;
+}
+.wd_DgVideoImgDiv {
+}
+.wd_DgNavImg {
+  padding-top: 5px;
+}
+.wd_DgOpacity5 {
+  opacity: 0.5;
+}
+.wd_DgOffsetsDiv {
+}
+.wd_DgOffsetsDiv p {
+  margin: 5px;
+  text-align: center;
+}
